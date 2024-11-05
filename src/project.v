@@ -20,7 +20,7 @@ module tt_um_b_8_array_multiplier(
 
     wire [3:0] m = ui_in[7:4];
     wire [3:0] q = ui_in[3:0];
-    wire p;
+    wire [7:0] p;
 
 
 
@@ -53,7 +53,7 @@ module tt_um_b_8_array_multiplier(
     
     //wiring internal signals for adders 
     wire s1, s2, s3, s4, s5, s6, s7, s8, s9;
-    wire c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, s12;
+    wire c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12;
     
     //row 1
     assign p[0] = p00;
