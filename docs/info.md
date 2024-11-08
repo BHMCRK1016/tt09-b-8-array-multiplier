@@ -21,6 +21,6 @@ To test a 4x4 binary multiplier, apply a set of 4-bit input pairs, covering typi
 N/A
 
 
-![4x4 Array Multiplier](/docs/4x4_array_multiplier.png)
+![4x4 Array Multiplier](docs/4x4_array_multiplier.png)
 
 
